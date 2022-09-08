@@ -2,36 +2,42 @@ package executavel;
 
 public class PrimeiraClasseJava {
 
-	static int maiorIdade = 30;
-
 	public static void main(String[] args) {
-	
-    int maiorIdade = 18;
-    
-    int idadeIdoso = 60;
-    
-    int idadeJovem = 16;
+
+		/*DOUBLE - numeros decimais*/
+		
+            double nota1 = 90;
+    		double nota2 = 70;
+    		double nota3 = 50;
+    		double nota4 = 88;
     		
-    int idadeCrianca = 7;
-    
-    String cpf = "082.021.184-39";
-    
-   System.out.println("Maior idade é = " + maiorIdade);
-   System.out.println("Melhor idade é = " + idadeIdoso);
-   System.out.println("Jovem idade é = " + idadeJovem);
-   System.out.println("Criança idade é = " + idadeCrianca);
-   System.out.println("O CPF É = " + cpf + " LUCIANO");
-   
-   metodo2(cpf, idadeIdoso, idadeJovem, idadeCrianca); 
-   
+    		double mediaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
+		
+    		System.out.println("Media das Notas = " + mediaFinal);
+    		
+    	/*CHAR representa uma letra ou caractere*/	
+    		
+    		char pessoaFisica = 'F';
+    		char pessoaJuridica = 'J';
+    		char pessoaFemina = 'F';
+    		
+    		if(pessoaFemina == 'F') {
+    			System.out.println("Feminina");
+    		}
+    		else {
+    			System.out.println("Femino");
+    		}
+    		
+    	/*STRING no Java sempre será um texto de tamanho qualquer*/
+    		
+    		String nome = "Stephanie Sousa";
+    		String cpf = "787.787.858.85";
+    		String telefone = "99685-9854";
+    		String endereço ="Jari - Maracanaú/CE";
+    	/*Concatenação = Unir ou juntar dados*/	
+    		
+    		System.out.println("Meu nome é :" + nome + " e o CPF é " + cpf + " " + endereço );
+    		
 	}
-	  public static void metodo2(String cpfLuciano, int idadeIdoso, int idadeJovem, int idadeCrianca) {
-      System.out.println("Maior idade é = " + maiorIdade);
-      System.out.println("O CPF É = " + cpfLuciano + " LUCIANO");
-
-	  }
-	  public static void metodo2(String cpfLuciano) {
-		  
-	  }
-
 }
+
