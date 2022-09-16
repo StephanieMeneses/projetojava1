@@ -8,7 +8,7 @@ public class PrimeiraClasseJava {
 		int nota2 = 7;
 		int nota3 = 7;
 		int nota4 = 7;
-		int media = 0;
+	
 
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
 
