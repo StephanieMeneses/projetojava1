@@ -48,7 +48,7 @@ public class PrimeiraClasseJava {
 		/*SWITH CASE: OPERAÇÕES EXATAS*/
 		int dia = 2;  
 		switch (dia) {
-		case 1:
+		case 1: 
 			System.out.println("domingo");
 			
 			break;
